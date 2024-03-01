@@ -1,0 +1,78 @@
+body{
+    background:#6c3cb5;
+}
+#box{
+    height:500vh;
+        width: 75vw;
+        background: white;
+        position: absolute;
+        left: 12.5vw;
+        top: 25vh;
+        border-radius: 15px;
+}
+h1{
+    position: absolute;
+    left: 5vw;
+    font-size: 60px;
+    font-family: "Titan One", sans-serif;
+    font-weight: 200;
+}
+hr {
+    position: absolute;
+    top: 120px;
+    width: 1000px;
+    border-bottom: 2px solid #888;
+    left: 30px;
+  }
+  img{
+    width: 50%;
+    position: relative;
+    height: 85%;
+    border-radius: 15px;
+    left: -25%;
+    top: 6%;
+  }
+#Always{
+      width: 50%;
+      background: #6c3cb5;
+      position: relative;
+      left: 2%;
+      height: 25vh;
+      top: 20vh;
+      border-radius: 10px;
+      border: transparent;
+  }
+  #ALU{
+    
+      position: relative;
+      color: #fff;
+      font-size: 20pt;
+      width: 50%;
+      left: 50%;
+      top: -75%;
+  }
+  #Always:hover{
+      background: #8046d6;
+  }
+  #testgame{
+    width: 50%;
+    background: #6c3cb5;
+    position: relative;
+    left: 2%;
+    height: 25vh;
+    top: 20vh;
+    border-radius: 10px;
+    border: transparent;
+}
+#test{
+  
+    position: relative;
+    color: #fff;
+    font-size: 20pt;
+    width: 50%;
+    left: 50%;
+    top: -10%;
+}
+#testgame:hover{
+    background: #8046d6;
+}
