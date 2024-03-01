@@ -1,0 +1,31 @@
+body{
+    background: #6c3cb5;
+    }
+    #box{
+        height:50vh;
+        width: 50vw;
+        background: white;
+        position: absolute;
+        left: 25vw;
+        top: 25vh;
+        border-radius: 15px;
+    }
+    #code{
+        font-size: 60pt;
+        font-family: "Titan One", sans-serif;
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        top: 30%;
+        height: 40%;
+        border-radius: 15px;
+        text-align: center;
+    }
+    h1{
+        position: absolute;
+        text-align: center;
+        font-family: "Titan One", sans-serif;
+        font-size: 45pt;
+        left: 20%;
+        top: -27px;
+    }

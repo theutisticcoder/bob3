@@ -1,0 +1,97 @@
+body{
+    background: #6c3cb5;
+}
+h1{
+    color: #fff;
+    font-size: 125pt;
+    position: absolute;
+    top: -75pt;
+    left: 20pt;
+    font-family: "Titan One", sans-serif;
+    font-weight: 200;
+}
+#JoinGame{
+    background: #6c3cb5;
+    position: absolute;
+    right: 50pt;
+    top: 200pt;
+    font-size: 50pt;
+    border-radius: 20px;
+    color: #fff;
+    font-family: "Titan One", sans-serif;
+    font-weight: 1;
+    border: transparent;
+}
+#JoinGame:hover{
+    color: lightgray;
+    
+}
+#BrowseGames{
+    background: #6c3cb5;
+    position: absolute;
+    right: 50pt;
+    top: 300pt;
+    font-size: 50pt;
+    border-radius: 20px;
+    color: #fff;
+    font-family: "Titan One", sans-serif;
+    font-weight: 1;
+    border: transparent;
+}
+#BrowseGames:hover{
+    color: lightgray;
+}
+hr{
+    position: absolute;
+    top: 200px;
+    width: 95%;
+    border-bottom: 3px solid #fff;
+    left: 30px;
+}
+#SignIn{
+    color: #fff;
+    background: #6c3cb5;
+    position: absolute;
+    left: 900pt;
+    top: 50pt;
+    font-size: 40pt;
+    font-family: "Titan One", sans-serif;
+    font-weight: 1;
+    border: transparent;
+}
+#LogIn{
+    color: #fff;
+    background: #6c3cb5;
+    position: absolute;
+    left: 700pt;
+    top: 50pt;
+    font-size: 40pt;
+    font-family: "Titan One", sans-serif;
+    font-weight: 1;
+    border: transparent;
+}
+#side{
+    height: 68vh;
+        width: 60vw;
+        background: white;
+        position: absolute;
+        left: 15px;
+        top: 30vh;
+        border-radius: 10px;
+        clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+    }
+    #text{
+        color: black;
+        font-family: "Titan One", sans-serif;
+        font-size: 30pt;
+        position: absolute;
+        left: 15px;
+        top: 0vh;
+        text-align: center;
+    }
+    #SignIn:hover{
+        color: lightgray;
+    }
+    #LogIn:hover{
+        color: lightgray;
+    }
