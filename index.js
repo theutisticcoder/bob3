@@ -13,6 +13,9 @@ server.listen(3000, ()=> {
     console.log("listening on 3000");
 });
 io.on("connection", (socket)=> {
+    socket.on("test", ()=> {
+        socket.emit("conn");
+    })
     socket.on("username", (data)=> {
         if(users.includes(data.username)){
             socket.emit("tryagain");
