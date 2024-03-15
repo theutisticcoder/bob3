@@ -1,4 +1,5 @@
 const socket=io()
+var usern;
 async function LogInIn(){
 const { value: uname } = await Swal.fire({
     title: "Type your username",
@@ -6,6 +7,7 @@ const { value: uname } = await Swal.fire({
     inputLabel: "Username",
     showCancelButton: true
   });
+  usern=uname;
   const { value: password } = await Swal.fire({
     title: "Type your password",
     input: "password",
@@ -22,6 +24,7 @@ async function username(){
         inputLabel: "Username",
         showCancelButton: true
       });
+      usern=uname;
       const { value: password } = await Swal.fire({
         title: "Choose a password",
         input: "password",
@@ -50,5 +53,6 @@ socket.on("tryagain",async ()=> {
 })
  socket.on("Log",()=>{
     console.log("logged in");
-    window.location.href="BrowseGames.html";
+    localStorage.setItem("username",usern)
+    window.location.href="UserScreen.html";
 })

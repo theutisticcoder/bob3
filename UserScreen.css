@@ -1,0 +1,109 @@
+#bOne{
+    width: 100vw;
+    height: 14vh;
+    background: #6c3cb5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#bob{
+    color: #fff;
+    font-size: 125pt;
+    position: absolute;
+    top: -70pt;
+    left: 20pt;
+    font-family: "Titan One", sans-serif;
+    font-weight: 50;
+    font-size: 80pt;
+
+}
+#logout{
+    color: #fff;
+    background: #6c3cb5;
+    position: absolute;
+    left: 950pt;
+    top: 10pt;
+    font-size: 40pt;
+    font-family: "Titan One", sans-serif;
+    font-weight: 1;
+    border: transparent;
+}
+#joina{
+    color: #fff;
+    background: #6c3cb5;
+    position: absolute;
+    left: 700pt;
+    top: 10pt;
+    font-size: 40pt;
+    font-family: "Titan One", sans-serif;
+    font-weight: 1;
+    border: transparent;
+}
+#bTwo{
+    height: 68vh;
+        width: 47vw;
+        background: rgb(23, 94, 156);
+        position: absolute;
+        left: 0;
+        top: 14vh;
+        height: 86vh;
+        clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
+}
+#dash{
+    color: white;
+    font-family: "Titan One", sans-serif;
+    font-size: 60pt;
+    position: absolute;
+    left: 15px;
+    top: 0vh;
+    text-align: center;
+}
+hr{
+    position: absolute;
+    top: 145px;
+    width:70%;
+    border-bottom: 5px solid #fff;
+    left: 30px;
+}
+#joinb{
+    color: #fff;
+    background: transparent;
+    position: absolute;
+    left: 25pt;
+    top: 350pt;
+    font-size: 40pt;
+    font-family: "Titan One", sans-serif;
+    font-weight: 1;
+    border: transparent;
+}
+#browse{
+    color: #fff;
+    background: transparent;
+    position: absolute;
+    left: 25pt;
+    top: 250pt;
+    font-size: 40pt;
+    font-family: "Titan One", sans-serif;
+    font-weight: 1;
+    border: transparent;
+}
+#premium{
+    color: #fff;
+    background: transparent;
+    position: absolute;
+    left: 25pt;
+    top: 150pt;
+    font-size: 40pt;
+    font-family: "Titan One", sans-serif;
+    font-weight: 1;
+    border: transparent;
+}
+#hh{
+    color: black;
+    font-family:"Titan One", sans-serif;
+    font-size: 50pt;
+    position: absolute;
+    left: 710px;
+    top: 10vh;
+    text-align: center;
+}

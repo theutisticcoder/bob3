@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://cdn.socket.io/4.7.4/socket.io.min.js" integrity="sha384-Gr6Lu2Ajx28mzwyVR8CFkULdCU7kMlZ9UthllibdOSo6qAiN+yXNHqtgdTvFXMT4" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
@@ -11,10 +15,13 @@
     <link rel="stylesheet" href="JoinGame.css">
 </head>
 <body>
-    <div id="box">
+    <div id="join">
         <h1>Enter Code</h1>
         <input minlength="6" maxlength="6" type="text" placeholder="Enter Code" id="code">
-            
+        <button id="joinGame">Join Game</button>
     </div>
+        <iframe src="testgame/index.html" frameborder="0" style="height:100vh; width:100vw;position: absolute; z-index: 100;"  hidden id="gamewindow2"></iframe>
+
+        <script src="JoinGame.js"></script>
 </body>
 </html>

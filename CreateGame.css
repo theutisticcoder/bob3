@@ -1,0 +1,35 @@
+body{
+    background: #6c3cb5;
+    }
+    #box{
+        height:50vh;
+        width: 20vw;
+        background: white;
+        position: absolute;
+        left: 25vw;
+        top: 25vh;
+        border-radius: 15px;
+        text-align: center;
+    }
+    #Create{
+        background: black;
+        color: white;
+        font-family: "Madimi One", sans-serif;
+        border-radius: 10px;
+        position: relative;
+        font-size: 30pt;
+        top: 5vh;
+        font-weight: 300;
+        font-style: normal;
+        z-index: 200;
+    }
+    #number{
+        font-family: "Titan One", sans-serif;
+        top: 15vh;
+        font-size: 50pt;
+        position: relative;
+        z-index: 200;
+
+    }
+    
+

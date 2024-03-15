@@ -1,17 +1,18 @@
+var codes=[];
 const express = require("express")
 var app = express();
 app.use(express.static(__dirname));
 app.use(express.static(__dirname + "testgame"));
 app.use(express.static(__dirname + "testgame/*"));
-
+var people = [];
 const server = require("http").createServer(app);
-const io = require("socket.io")(server);
+const socket = require('socket.io');
+var io = socket(server);
 var users = [];
 var passwords = [];
 var checked=false;
-server.listen(3000, ()=> {
-    console.log("listening on 3000");
-});
+
+
 io.on("connection", (socket)=> {
     socket.on("test", ()=> {
         socket.emit("conn");
@@ -44,6 +45,37 @@ io.on("connection", (socket)=> {
             }
             checked=false;
 })
+socket.on("check",c=>{
+    if(codes.includes(c)){
+        socket.emit("tryagain");
+    }
+    else{
+        console.log(codes);
+        codes.push(c);
+        socket.emit("check",c);
+    }
+   
+});
 
-        }
+socket.on("checkCode",c=>{
+    if(codes.includes(c)){
+        socket.emit("code",c);
+    }
+    else{
+       
+        socket.emit("tryagainjoin");
+    }
+   
+});
+    socket.on("delete",c=>{
+        codes.splice(codes.findIndex(e=>e===c),codes.findIndex(e=>e===c))
+        console.log(codes);
+        })
+}
+
+
  )
+ server.listen(3000, ()=> {
+    console.log("listening");
+ })
+

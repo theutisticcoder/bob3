@@ -2,10 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="https://cdn.socket.io/4.7.4/socket.io.min.js" integrity="sha384-Gr6Lu2Ajx28mzwyVR8CFkULdCU7kMlZ9UthllibdOSo6qAiN+yXNHqtgdTvFXMT4" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="UserScreen.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div id="bOne">
+        <h1 id="bob">Bob#3</h1>
+        <button id="logout" onclick="window.location.href='index.html'">Log Out</button>
+        <button id="joina" onclick="window.location.href='JoinGame.html'">Join Game</button>
+    </div>
+    <div id="bTwo">
+        <h1 id="dash">Dashboard</h1>
+        <hr>
+        <button id="joinb" onclick="window.location.href='JoinGame.html'">Join Game</button>
+        <button id="browse" onclick="window.location.href='BrowseGames.html'">Browse Games</button>
+        <button id="premium" onclick="window.location.href='Premium.html'">Explore Premium!</button>
+    </div>
+    <h1 id="hh">Hello, username!</h1>
+    <script>
+        document.getElementById("hh").innerHTML="Hello, "+ localStorage.getItem("username");
+    </script>
 </body>
 </html>

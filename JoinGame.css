@@ -1,7 +1,7 @@
 body{
     background: #6c3cb5;
     }
-    #box{
+    #join{
         height:50vh;
         width: 50vw;
         background: white;
@@ -10,16 +10,34 @@ body{
         top: 25vh;
         border-radius: 15px;
     }
+    #start{
+        height:50vh;
+        width: 50vw;
+        background: white;
+        position: absolute;
+        left: 25vw;
+        top: 25vh;
+        border-radius: 15px;
+    }
+    #game{
+        height:50vh;
+        width: 50vw;
+        background: white;
+        position: absolute;
+        left: 25vw;
+        top: 25vh;
+        border-radius: 15px;
+    }
+
     #code{
         font-size: 60pt;
         font-family: "Titan One", sans-serif;
-        width: 80%;
         position: absolute;
         left: 10%;
         top: 30%;
-        height: 40%;
         border-radius: 15px;
         text-align: center;
+        width: 80%;
     }
     h1{
         position: absolute;
@@ -28,4 +46,19 @@ body{
         font-size: 45pt;
         left: 20%;
         top: -27px;
+    }
+    button{
+        background: black;
+        color: white;
+        font-family: "Madimi One", sans-serif;
+        border-radius: 10px;
+        font-size: 30pt;
+        position: absolute;
+        left: 15vw;
+        top: 33.4vh;
+        font-weight: 300;
+        font-style: normal; 
+    }
+    #Create{
+        top: 10vh;
     }

@@ -1,0 +1,19 @@
+body{
+    background: #6c3cb5;
+    }
+#box{
+    height:500vh;
+    width: 75vw;
+    background: white;
+    position: absolute;
+    left: 12.5vw;
+    top: 25vh;
+    border-radius: 15px; 
+}
+#tag{
+    position: absolute;
+    left: 5vw;
+    font-size: 60px;
+    font-family: "Titan One", sans-serif;
+    font-weight: 200;
+}
