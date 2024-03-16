@@ -101,3 +101,6 @@ hr{
         position: absolute;
         top: -50px;
     }
+    *{
+        margin: 1vh;
+    }
