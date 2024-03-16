@@ -101,6 +101,6 @@ hr{
         position: absolute;
         top: -50px;
     }
-    *{
-        margin: 1vh;
+    h1{
+        padding: 1vh;
     }
