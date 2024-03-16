@@ -107,3 +107,18 @@ hr{
     top: 10vh;
     text-align: center;
 }
+#premium:hover{
+    color: lightgray;
+}
+#browse:hover{
+    color: lightgray;
+}
+#joinb:hover{
+    color: lightgray;
+}
+#joina:hover{
+    color: lightgray;
+}
+#logout:hover{
+    color: lightgray;
+}
