@@ -63,7 +63,7 @@ hr{
     color: #fff;
     background: #6c3cb5;
     position: absolute;
-    left: 700pt;
+    left: 650pt;
     top: 50pt;
     font-size: 40pt;
     font-family: "Titan One", sans-serif;
@@ -72,7 +72,7 @@ hr{
 }
 #side{
     height: 68vh;
-        width: 60vw;
+        width: 50vmax;
         background: white;
         position: absolute;
         left: 15px;
@@ -101,6 +101,6 @@ hr{
         position: absolute;
         top: -50px;
     }
-    h1{
-        padding: 1vh;
+    #text,#LogIn,#SignIn,#BrowseGames,#JoinGame{
+       font-size: 5vmax;
     }
