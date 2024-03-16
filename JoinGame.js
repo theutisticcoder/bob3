@@ -15,7 +15,7 @@ function loadgame(){
     document.querySelector("#gamewindow2").contentWindow.gameInstance.SendMessage("ConnectToServer","Start");       
     setTimeout(()=> {
         document.querySelector("#gamewindow2").contentWindow.gameInstance.SendMessage("ConnectToServer","Join",code);       
-    }, 10000);
+    }, 15000);
 }
 socket.on("code",(c)=>{
     code = c;
