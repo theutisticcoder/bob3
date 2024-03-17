@@ -24,7 +24,7 @@ function loadgame(){
 socket.on("check",(c)=>{
     document.getElementById("Create").innerHTML="Start Game"
     document.getElementById("gamewindow").style.left="-10vw";
-    document.getElementById("box").style.left="80vw";
+    document.getElementById("box").style.left="75vw";
     code = c;
     document.querySelector("#gamewindow").hidden=false;
         loadgame();
